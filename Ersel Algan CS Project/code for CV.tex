@@ -1,0 +1,154 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fontawesome5} % Include fontawesome5 here
+\usepackage{enumitem}
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{#1}}%
+     \item[]
+}
+{\end{list}}
+
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{-0.5#1}}%
+\item[]%
+}
+{\end{list}}
+
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 &
+#2 \\
+\end{tabular*}}
+
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+\begin{document}
+
+\begin{center}
+	{\LARGE \textbf{Mustafa Ersel Algan}}\\
+	Germany, Berlin
+	\vspace{0.05cm}
+	\\
+	\raisebox{-0.2\height} {\Large \faPhoneSquare} \ \  +4915215359928 \hfill\raisebox{-0.2\height}{\Large \faEnvelopeSquare} \ \ erselalqan@gmail.com \hfill \raisebox{-0.2\height}{\Large \faGithubSquare} \ \ https://github.com/Qwersel \hfill \raisebox{-0.2\height}{\Large \faLinkedin} \ \ linkedin.com/in/erselalgan
+\end{center}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Experience}
+
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+		
+		
+	\item
+	      \headerrow
+	      {\textbf{Star College}}
+	      {\textbf{Azerbaijan, Baku}}
+	      \headerrow
+	      {\emph{English teacher}}
+	      {\emph{Feb 2023- May 2023}}
+	      \begin{itemize*}
+	      	\item Give students of all ages speaking exercises and vocabulary lessons
+	      	\item Explain grammar concepts in simple terms that students could understand easily
+	      	\item Checked and marked assignments written by students for them to further proceed with their studies
+	      \end{itemize*}
+	      	      
+	\item
+	      \headerrow
+	      {\textbf{Era Shop}}
+	      {\textbf{Turkey, Gaziantep}}
+	      \headerrow
+	      {\emph{Translator and Negotiator}}
+	      {\emph{May 2023- Oct 2023}}
+	      \begin{itemize*}
+	      	\item Translated in-person conversations from English to Turkish and Russian
+	      	\item  Negotiated prices and stock volume with foreign companies and suppliers
+	      	\item Increased range of foreign companies that partner with "Era Shop"
+	      	\item Assisted various business deals yielding more profit to the company through interrogation and negotiation skills
+	      \end{itemize*}
+	      \headerrow
+	      {\emph{Email Manager}}
+	      {\emph{Oct 2023- Jan 2024}}
+	      \begin{itemize*}
+	      	\item Translated various emails and documents from TUR->ENG and ENG->TUR
+	      	\item Made sure important announcement emails were written and delivered on time 
+	      	\item Read and responded to all emails coming from foreign companies and suppliers with directions from the main manager
+	      \end{itemize*}
+	      	      
+	\item
+	      	      
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Skills}
+
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em,noitemsep]
+	\item \textbf{Languages:}
+	      English C2, Russian C2, Turkish B2, Azerbaijani B1 German A1
+	\item \textbf{Software:}
+	      Adobe Photoshop, Microsoft Excel, Microsoft Word, Microsoft Power Point, Microsoft Access
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Education}
+
+\begin{itemize}[leftmargin=1em]
+    \parskip=0.1em
+    
+    \item
+    \textbf{Matriculation Certificate} \\
+    \emph{South Africa, Johannesburg} \\
+    \emph{Jan 2023}
+    
+    \item
+    \textbf{Grades:} \\
+    \begin{tabular}{|l|r|}
+        \hline
+        \textbf{Subject} & \textbf{Grade} \\
+        \hline
+        Mathematics & 80 \\
+        Physical Sciences & 80 \\
+        Life Science & 76 \\
+        English & 78 \\
+        Business Studies & 86 \\
+        Religion Studies & 86 \\
+        Life Orientation & 88 \\
+        \hline
+    \end{tabular}
+	      	      
+\end{itemize}
+
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+		
+	\item
+	      \headerrow
+	      {\textbf{GISMA University}}
+	      {\textbf{Germany, Berlin}}
+	      \headerrow
+	      {\emph{Computer Science Bs.}}
+	      {\emph{Ongoing Education}}
+	      	      
+\end{itemize}
+
+\end{document}
